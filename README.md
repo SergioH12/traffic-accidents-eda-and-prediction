@@ -6,7 +6,7 @@ Este repositorio contiene el trabajo práctico TP1: análisis exploratorio y mod
 
 Enlaces relevantes
 ------------------
-- Notebook principal: https://github.com/SergioH12/Analisis1/blob/f2a8da17c66b8c7827baeb070bf43edb0296e52b/TP1_Accidente.ipynb
+- Notebook principal: https://github.com/SergioH12/Analisis1/TP1_Accidente.ipynb
 - Archivo de datos esperado: `Accidente.csv` (debe estar en la raíz del repo o la ruta especificada en el notebook)
 
 Descripción del dataset
@@ -18,14 +18,13 @@ Cada fila representa un evento de accidente vial y las columnas contienen atribu
 - Variables booleanas de POIs (Amenity, Bump, Crossing, ...), y columnas sobre crepúsculo / amanecer ('Sunrise_Sunset', 'Civil_Twilight', ...)
 
 Cantidad de datos (aprox.)
-- ~2.97M filas y 49 columnas en el dataset original (según la versión cargada en el notebook).
+- ~2.97M filas y 49 columnas en el dataset original.
 
 Contenido del repositorio
 -------------------------
 - TP1_Accidente.ipynb — Notebook con todo el flujo de análisis: carga de datos, limpieza, EDA y modelado (PyCaret).
 - Accidente.csv — CSV con los datos (si está presente en el repo).
 - README.md — (este archivo).
-- requirements.txt — (opcional: lista de dependencias para reproducir el entorno).
 
 Requisitos / Dependencias
 -------------------------
@@ -37,7 +36,7 @@ El notebook se desarrolló usando Python 3.x y las siguientes librerías (no exh
 - pycaret
 - jupyter
 
-Puedes crear un entorno virtual e instalar dependencias con pip. Ejemplo de `requirements.txt` sugerido:
+Puedes crear un entorno virtual e instalar dependencias con pip:
 ```text
 pandas
 numpy
@@ -93,28 +92,10 @@ Resultados y conclusiones (resumen)
 -----------------------------------
 Dentro del notebook se documentan los hallazgos principales (distribución de severidad, relaciones con condiciones climáticas, hora del día, y otras variables). Las conclusiones sobre la capacidad predictiva de las características y el desempeño de los modelos están en la sección final del notebook.
 
-Reproducibilidad
-----------------
-- Incluye un `requirements.txt` para fijar versiones si deseas exactitud en reproducibilidad.
-- Documenta en el notebook las semillas (`random_state`) usadas para particiones y entrenamientos.
-
-Contribuciones
---------------
-Si quieres aportar:
-1. Abre un issue para proponer cambios (mejoras del análisis, nuevas visualizaciones o modelos).
-2. Envía un pull request con descripciones claras de los cambios.
-
-Licencia
---------
-Indica aquí la licencia que quieras aplicar al proyecto (por ejemplo, MIT). Si no has decidido, puedes añadir un fichero `LICENSE` y especificarlo.
 
 Contacto
 --------
 Autor: SergioH12  
 Repositorio: https://github.com/SergioH12/Analisis1
-
-Agradecimientos
----------------
-Dataset público (si corresponde, especificar la fuente exacta del dataset si fue descargado de un repositorio público). Menciones a librerías usadas (pandas, scikit-learn, pycaret, etc.).
 
 ```
