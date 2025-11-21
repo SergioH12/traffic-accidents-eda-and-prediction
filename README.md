@@ -6,7 +6,7 @@ Este repositorio contiene el trabajo práctico TP1: análisis exploratorio y mod
 
 Enlaces relevantes
 ------------------
-- Notebook principal: https://github.com/SergioH12/Analisis1/TP1_Accidente.ipynb
+- Notebook principal: https://github.com/SergioH12/Analisis1/blob/f2a8da17c66b8c7827baeb070bf43edb0296e52b/TP1_Accidente.ipynb
 - Archivo de datos esperado: `Accidente.csv` (debe estar en la raíz del repo o la ruta especificada en el notebook)
 
 Descripción del dataset
